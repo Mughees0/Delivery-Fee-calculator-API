@@ -1,8 +1,34 @@
-# Delivery Fee Calculating API
+# This is the project assignment for wolt Engineering Summer internship
 
-### An API which requests JSON data in the following format:
-- {"cart_value": 790, "delivery_distance": 2235, "number_of_items": 4, "time": "2021-10-12T13:00:00Z"}
+- specifications here => https://github.com/woltapp/engineering-summer-intern-2023
 
-### Returns the delivery fee:
-- {"delivery_fee": 710}
+## Pre-requisites
 
+Download
+
+- python3
+- pip
+- insomnia
+
+## Pacakage-dependencies
+
+- pytest
+- flask
+- python-dateutil
+
+## Instructions to run the code
+
+- Install pacakages: `pip install pytest`, `pip install flask` and `pip install python-dateutil`
+
+- Run tests: run `pytest deliveryFeeCalculatorApiUnitTests.py`
+
+- Run API code: run `python deliveryFeeCalculatorApi.py` in terminal
+
+- Open Insomnia application:
+- - Create new Request: Select 'POST' method and paste http://127.0.0.1:5000/ in your request address bar.
+- - In Body select JSON and paste the data from 'sampleInputJson.txt'
+- - Click Send
+
+## Author
+
+Code is created by Abdul Mughees.
